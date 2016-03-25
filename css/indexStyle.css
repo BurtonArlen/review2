@@ -1,5 +1,17 @@
 .main{
   background-image: url(../img/bgrd.jpg);
   text-align: center;
-  color: #eee;
+  color: #00ff04;
+  padding top: 50px;
+}
+
+img{
+  width: 1200px;
+  height: auto;
+}
+
+.jumbotron{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../img/travel.jpg);
 }

@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     var lastName = $("input#nameLast").val();
 
-    var fullName = $(firstName + " " + lastName)
+    var fullName = (firstName + " " + lastName);
 
     var points = 0;
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
     points += result;
 
     if (points < 100) {
-      alert("You should probably just stay home...");
+      alert(fullName + " you should probably just stay home...");
     }
 
     if (points > 100 && points < 200) {
