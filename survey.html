@@ -16,19 +16,27 @@
       </div>
     </div>
     <div class="container">
-      <div class="sidebarLeft">
+      <div class="sidebarLeft col-xs-2">
         <a href="#"><img src="" alt="advertisement1"></a>
       </div>
       <form id="quizPg1">
         <div class="col-md-8">
           <ol>
-            <li id="q1">
+            <li id="name">
               <div class="form-group">
-                <label for="name">Please enter your name:</label>
-                <input id="name" class="form-control" type="text">
+                <label for="name">Please enter your full name:</label>
+                <input id="nameFirst" class="form-control" type="text" placeholder="John">
+                <input id="nameLast" class="form-control" type="text" placeholder="Smith">
               </div>
             </li>
-            <li id="q2">
+            <li>
+              <div class="form-group">
+                <label for="name">Please enter your primary email address and phone number:</label>
+                <input id="email" class="form-control" type="text" placeholder="email@address.com">
+                <input id="phoneNum" class="form-control" type="text" placeholder="(xxx-xxx-xxxx)">
+              </div>
+            </li>
+            <li id="gender">
               <label for="gender">Please select your gender:</label>
               <select class="form-control" id="gender">
                 <option value="0">- - Select - -</option>
@@ -38,48 +46,114 @@
               </select>
             </li>
             <li>
-
+              <li id="q2">
+                <label for="climate">Please select your prefered climate:</label>
+                <select class="form-control" id="gender">
+                  <option value="0">- - Select - -</option>
+                  <option value="20">Cold &amp; Humid</option>
+                  <option value="40">Cold &amp; Arid</option>
+                  <option value="60">Temperate</option>
+                  <option value="80">Hot &amp; Arid</option>
+                  <option value="100">Hot &amp; Arid</option>
+                </select>
+              </li>
             </li>
             <li>
-
-            </li>
-            <li>
-
+              <label for="enjoy">Which do you find the most enjoyable?</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="100">Blasting down a long straight empty road</option>
+                <option value="60">Facebooking/Tweeting</option>
+                <option value="20">Fishing</option>
+                <option value="40">Bonfires</option>
+                <option value="80">Sunbathing</option>
+              </select>
             </li>
           </ol>
           <a href="#"><img src="" alt="advertisement2"></a>
           <ol>
             <li>
-
+              <label for="food">Which do food do you prefer?</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="20">Sushi</option>
+                <option value="40">Dry Cereal</option>
+                <option value="100">Anything SPICY!</option>
+                <option value="60">Delivery pizza</option>
+                <option value="80">Vegetarian/Vegan</option>
+              </select>
             </li>
             <li>
-
+              <label for="Children">How many children will you be traveling with?</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="20">None</option>
+                <option value="80">One</option>
+                <option value="60">Two or Three</option>
+                <option value="60">More than Three</option>
+              </select>
             </li>
             <li>
-
+              <label for="transport">What method of travel will you be using?</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="20">Car</option>
+                <option value="40">Light Aircraft</option>
+                <option value="100">Motorcycle</option>
+                <option value="60">Bus</option>
+                <option value="80">Passenger Jet</option>
+              </select>
             </li>
             <li>
-
+              <label for="">What method of travel will you be using?</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="20">Car</option>
+                <option value="40">Light Aircraft</option>
+                <option value="100">Motorcycle</option>
+                <option value="60">Bus</option>
+                <option value="80">Passenger Jet</option>
+              </select>
             </li>
           </ol>
           <a href="#"><img src="" alt="advertisement3"></a>
           <ol>
             <li>
-
+              <label for="transport">What genera of music do you prefer?</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="20">Country</option>
+                <option value="40">Classical</option>
+                <option value="100">Edm and its sub-genera</option>
+                <option value="60">Pop</option>
+                <option value="80">Rock &amp; Roll</option>
+              </select>
             </li>
             <li>
-
+              <label for="duration">Please select the indented duration of stay:</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="60">One Day</option>
+                <option value="20">Less than a week</option>
+                <option value="100">More than a week</option>
+              </select>
             </li>
             <li>
-
-            </li>
-            <li>
-
+              <label for="Budget">Please select the most appropriate budget range:</label>
+              <select class="form-control" id="gender">
+                <option value="0">- - Select - -</option>
+                <option value="60">Unsure</option>
+                <option value="20">$100-$500</option>
+                <option value="80">$500-$1000</option>
+                <option value="100">$1000-$5000</option>
+                <option value="40">$5000+</option>
+              </select>
             </li>
           </ol>
         </div>
+        <button type="submit" class="btn btn-lg btn-success">Where should I go?!?!</button>
       </form>
-      <div class="sidebarRight">
+      <div class="sidebarRight col-xs-2">
         <a href="#"><img src="" alt="advertisement3"></a>
       </div>
     </div>
