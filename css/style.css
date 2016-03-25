@@ -1,0 +1,39 @@
+.main{
+  background-image: url(../img/bgrd.jpg);
+  text-align: center;
+  color: #eee;
+}
+
+.nebraska{
+  background-image: url(../img/nebraska.jpg);
+  text-align: center;
+  color:
+}
+
+.beach{
+  background-image: url(../img/beach.jpg);
+  text-align: center;
+  color:
+}
+
+.sixflags{
+  background-image: url(../img/6flags.jpg);
+  text-align: center;
+  color:
+}
+
+.asia{
+  background-image: url(../img/asia.jpg);
+  text-align: center;
+  color:
+}
+
+-webkit-@font-face {
+    font-family: cursive;;
+    src: url(~/artsyFont.ttf);
+}
+
+.jumbotron{
+  background-color: #a0a0a0;
+  font-family: cursive;;
+}
