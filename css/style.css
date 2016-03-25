@@ -2,30 +2,35 @@
   background-image: url(../img/bgrd.jpg);
   text-align: center;
   color: #eee;
+  background-attachment: fixed;
 }
 
 .nebraska{
   background-image: url(../img/nebraska.jpg);
   text-align: center;
-  color:
+  color: ;
+  background-attachment: fixed;
 }
 
 .beach{
   background-image: url(../img/beach.jpg);
   text-align: center;
-  color:
+  color: #0066ff;
+  background-attachment: fixed;
 }
 
 .sixflags{
-  background-image: url(../img/6flags.jpg);
+  background-image: url(../img/6flag.jpg);
   text-align: center;
-  color:
+  color: #ff145b;
+  background-attachment: fixed;
 }
 
 .asia{
   background-image: url(../img/asia.jpg);
   text-align: center;
-  color:
+  color: #edc613;
+  background-attachment: fixed;
 }
 
 -webkit-@font-face {
@@ -34,6 +39,7 @@
 }
 
 .jumbotron{
-  background-color: #a0a0a0;
-  font-family: cursive;;
+  background-image: url(../img/travel.jpg);
+  font-family: serif;
+  color: #1f053a;
 }

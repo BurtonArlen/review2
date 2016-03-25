@@ -1,11 +1,11 @@
 $(document).ready(function() {
   $("form").submit(function(event) {
 
-    // var firstName = ($("#nameFirst")input)
-    //
-    // var lastName = ($("#nameLast")input)
+    var firstName = $("input#nameFirst").val();
 
-    var fullName = ("firstName"+" lastName")
+    var lastName = $("input#nameLast").val();
+
+    var fullName = $(firstName + " " + lastName)
 
     var points = 0;
 
@@ -39,29 +39,36 @@ $(document).ready(function() {
     result = parseInt($("select#budget").val());
     points += result;
 
-    // if (points === 68) {
-    //   $("div#stayHome").removeClass("hidden");
-    //   alert("You should probably just stay home...");
-    
+    if (points < 100) {
+      alert("You should probably just stay home...");
+    }
 
-    if (points < 200) {
+    if (points > 100 && points < 200) {
       $("div#boringVacation").removeClass("hidden");
-      alert("Road trip to a corn farm seems fitting for you.");
+      $("body").removeClass("main");
+      $("body").addClass("nebraska");
+      alert(fullName + ", looks like a road trip to a wheat field seems fitting for you.");
     }
 
     if (points > 199 && points < 400) {
       $("div#okayVacation").removeClass("hidden");
-      alert("Have a day at the beach, you've earned it.");
+      $("body").removeClass("main");
+      $("body").addClass("beach");
+      alert(fullName + ", I hope you have a good day at the beach, you've earned it.");
     }
 
     if (points > 499 && points < 600) {
       $("div#funVacation").removeClass("hidden");
-      alert("Six Flags is calling you!");
+      $("body").removeClass("main");
+      $("body").addClass("sixflags");
+      alert(fullName + ", Six Flags is calling you!");
     }
 
     if (points > 599) {
       $("div#realAdventure").removeClass("hidden");
-      alert("You should go backpacking through the mountains and lowlands of Asia");
+      $("body").removeClass("main");
+      $("body").addClass("asia");
+      alert(fullName + ", the mountains, forests, and lowlands of Asia are the only things that can satiate your wild sense adventure!");
     }
 
     event.preventDefault();
